@@ -43,7 +43,7 @@ public class UI {
 
         String userInput = input.nextLine();
 
-        return userInput;
+        return userInput.toUpperCase();
 
     }
 

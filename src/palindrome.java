@@ -1,5 +1,5 @@
 public class palindrome {
-    
+
     public static boolean isPal(String userInput) {
 
         for(int i = 0; i < userInput.length(); i++) {
