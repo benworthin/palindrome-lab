@@ -5,9 +5,12 @@ public class palindrome {
      * Postcondition: The value of true is returned if s is a Palindrome, false otherwise.
      * Note:          >>>>> This method is required for both the 80 point and the 100 point versions  <<<<<
      */
-    public static boolean isPal(String s)
-    {
-        return true;      // This statement is provided to allow initial compiling.
+    public static boolean isPal(String userInput) {
+
+        //if ()
+
+        return true;
+
     }
 
     /*
