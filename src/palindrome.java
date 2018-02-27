@@ -23,8 +23,8 @@ public class palindrome {
     public static boolean almostPal(String userInput) {
 
 
-        purge(userInput);
-        return isPal(userInput);
+        String purgedUserInput = purge(userInput);
+        return isPal(purgedUserInput);
 
     }
 
