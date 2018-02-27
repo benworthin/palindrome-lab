@@ -27,9 +27,12 @@ public class palindrome {
      * Postcondition: All non-letter characters are removed from s, and this "purged" String is returned.
      * Note:          >>>>> This method is only completed for the 100 point version  <<<<<
      */
-    private static String purge(String s)
+    private static String purge(String userInput)
     {
-        return "";        // This statement is provided to allow initial compiling.
+
+        userInput = userInput.replaceAll("[^a-zA-Z0-9]","" );
+        return userInput;
+
     }
 
     /*
@@ -38,9 +41,11 @@ public class palindrome {
      *                the value of true is returned if the resulting String is a Palindrome, false otherwise.
      * Note:          >>>>> This method is only completed for the 100 point version  <<<<<
      */
-    public static boolean almostPal(String s)
+    public static boolean almostPal(String userInput)
     {
-        return true;      // This statement is provided to allow initial compiling.
+
+        purge(userInput);
+
     }
 
 }
